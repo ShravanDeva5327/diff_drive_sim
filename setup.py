@@ -12,6 +12,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/worlds', glob('worlds/*.sdf')),
+        ('share/' + package_name + '/description', glob('description/*.xacro')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
