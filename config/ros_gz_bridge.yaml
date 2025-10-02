@@ -1,0 +1,11 @@
+- ros_topic_name: "/left_wheel/cmd_vel"
+  ign_topic_name: "/left_wheel/cmd_vel"
+  ros_type_name: "std_msgs/msg/Float64"
+  ign_type_name: "ignition.msgs.Double"
+  direction: "BIDIRECTIONAL"
+
+- ros_topic_name: "/right_wheel/cmd_vel"
+  ign_topic_name: "/right_wheel/cmd_vel"
+  ros_type_name: "std_msgs/msg/Float64"
+  ign_type_name: "ignition.msgs.Double"
+  direction: "BIDIRECTIONAL"
