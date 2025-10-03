@@ -43,6 +43,8 @@ A package to demonstrate a simple differential drive robot simulation in Gazebo 
     ros2 topic pub /right_wheel/cmd_vel std_msgs/msg/Float64 "data: -2.0"
     ```
 
+    **DO NOT FORGET TO PRESS THE PLAY BUTTON IN THE BOTTOM LEFT CORNER OF GAZEBO BEFORE RUNNING THESE COMMANDS, ONLY THEN THE ROBOT WILL MOVE.**
+
     See [TODO](#todo).
 
 ## TODO
